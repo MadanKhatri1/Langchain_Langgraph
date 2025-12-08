@@ -76,3 +76,5 @@ The support vector machines in scikit-learn support both dense (numpy.ndarray an
 result = merge_chain.invoke({'text': text})
 
 print(result)
+
+merge_chain.get_graph().print_ascii()
